@@ -2,7 +2,7 @@ name: "Download Pittsburgh land stats"
 
 on:
   schedule:
-    - cron: "0 03 * * *" # Daily at 03:00 UTC (23:00 EST of the previous day)
+    - cron: "0 13 * * *" # Daily at 13:00 UTC (09:00 EST of the same day)
   workflow_dispatch:
 
 jobs:
